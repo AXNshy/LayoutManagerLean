@@ -1,4 +1,4 @@
-package com.luffyxu.recyclerviewdemo
+package com.luffyxu.recyclerviewdemo.activity
 
 import android.graphics.Path
 import androidx.appcompat.app.AppCompatActivity
@@ -8,8 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.luffyxu.recyclerviewdemo.databinding.ActivityMainBinding
+import com.luffyxu.recyclerviewdemo.R
 import com.luffyxu.recyclerviewdemo.databinding.ActivityRecyclerViewBinding
+import com.luffyxu.recyclerviewdemo.layoutmanager.CircleLayoutManager
+import com.luffyxu.recyclerviewdemo.layoutmanager.PathLayoutManager
 
 class RecyclerViewActivity : AppCompatActivity() {
 

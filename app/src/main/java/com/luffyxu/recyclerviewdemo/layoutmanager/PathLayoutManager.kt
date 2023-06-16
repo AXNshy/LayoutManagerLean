@@ -1,4 +1,4 @@
-package com.luffyxu.recyclerviewdemo
+package com.luffyxu.recyclerviewdemo.layoutmanager
 
 import android.graphics.Path
 import android.graphics.PathMeasure
